@@ -8,6 +8,8 @@ REPO="git@github.com:talis/puppet-dynamic-env-test.git"
 BRANCH_DIR="/etc/puppet/environments"
 cd $BRANCH_DIR
 
+git pull
+
 echo -e "\nUpdating/Creating environment branches\n"
 b=`git branch -a | grep "^  remotes" | sed -s 's/remotes\/origin\///g' | sed -s 's/[[:blank:]]//g' | grep -v '^master$'`
 BRANCHES=(${b//\\n/})
