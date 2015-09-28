@@ -2,7 +2,7 @@
 :backends:
  - yaml
 :yaml:
-  :datadir: /etc/puppet/hieradata/
+  :datadir: /etc/puppet/environments/${environment}/hieradata/
 :hierarchy:
   - "%{::clientcert}"
   - "roles/%{::role}"
