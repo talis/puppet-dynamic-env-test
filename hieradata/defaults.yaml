@@ -2,3 +2,4 @@
 classes:
  - mongodb::server
  - git
+ - ant
