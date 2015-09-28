@@ -28,3 +28,5 @@ for d in *; do
     fi
   fi
 done
+
+echo -e "\nFinished"
