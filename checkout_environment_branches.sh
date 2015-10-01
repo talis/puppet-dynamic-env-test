@@ -8,6 +8,7 @@ REPO="git@github.com:talis/puppet-dynamic-env-test.git"
 BRANCH_DIR="/etc/puppet/environments"
 cd $BRANCH_DIR
 
+git fetch --all --prune
 git pull
 
 echo -e "\nUpdating/Creating environment branches\n"
