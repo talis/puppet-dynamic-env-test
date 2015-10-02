@@ -3,3 +3,4 @@ classes:
  - mongodb::server
  - git
  - pdftk
+ - x11vnc
